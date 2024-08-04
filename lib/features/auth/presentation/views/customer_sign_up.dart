@@ -1,6 +1,7 @@
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
 import 'package:fixit/core/widgets/custom_form_text_field.dart';
+import 'package:fixit/features/auth/presentation/views/create_customer_account.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_divider.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_facebook_button.dart';
 import 'package:fixit/features/auth/presentation/widgets/logo.dart';
@@ -8,6 +9,7 @@ import 'package:fixit/features/auth/presentation/widgets/remember_me.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 
 class Customer extends StatelessWidget {
   const Customer({super.key});
@@ -16,7 +18,7 @@ class Customer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 14.w),
+        padding: EdgeInsets.symmetric(horizontal: 16.w),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -58,7 +60,11 @@ class Customer extends StatelessWidget {
                 textColor: kPrimaryColor,
                 color: Colors.white,
                 title: S.of(context).createAccount,
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(
+                    const CreateCustomerAccount(),
+                  );
+                },
               ),
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 10.h),

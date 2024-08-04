@@ -29,6 +29,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Choose the membership type"),
         "chooseTheMembershipType2": MessageLookupByLibrary.simpleMessage(
             "Choose the membership type that suits you and join the fixit family."),
+        "codeTimer": MessageLookupByLibrary.simpleMessage(
+            "The code will be resent after"),
+        "confirmPassword":
+            MessageLookupByLibrary.simpleMessage("Confirm Password"),
         "continueWithApple":
             MessageLookupByLibrary.simpleMessage("Continue with Apple"),
         "continueWithFacebook":
@@ -37,10 +41,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Continue with Google"),
         "createAccount":
             MessageLookupByLibrary.simpleMessage("create a new account"),
+        "createNewPassword":
+            MessageLookupByLibrary.simpleMessage("Create new password"),
         "customer": MessageLookupByLibrary.simpleMessage("Customer"),
         "email": MessageLookupByLibrary.simpleMessage("E-mail"),
+        "enterOtpCode": MessageLookupByLibrary.simpleMessage(
+            "Enter the identification code sent to the email"),
+        "enterYourEmailAddress":
+            MessageLookupByLibrary.simpleMessage("Enter your email address"),
+        "enterYourNewPassword":
+            MessageLookupByLibrary.simpleMessage("Enter your New Password"),
         "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Forgot Password"),
+            MessageLookupByLibrary.simpleMessage("Forgot Password?"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "or": MessageLookupByLibrary.simpleMessage("Or"),
@@ -48,8 +60,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseEnterValidEmail":
             MessageLookupByLibrary.simpleMessage("Please enter a valid email"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
+        "save": MessageLookupByLibrary.simpleMessage("Save"),
+        "send": MessageLookupByLibrary.simpleMessage("Send"),
+        "startNow": MessageLookupByLibrary.simpleMessage("Start Now"),
         "technical": MessageLookupByLibrary.simpleMessage("Technical"),
+        "thePasswordHasBeenChangedSuccessfully":
+            MessageLookupByLibrary.simpleMessage(
+                "The password has been changed successfully"),
         "thisFieldIsRequired":
-            MessageLookupByLibrary.simpleMessage("this field is required")
+            MessageLookupByLibrary.simpleMessage("this field is required"),
+        "youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":
+            MessageLookupByLibrary.simpleMessage(
+                "You can browse the application now with the latest offers and discounts")
       };
 }

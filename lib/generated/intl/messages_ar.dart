@@ -28,6 +28,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("قم باختيار نوع العضوية"),
         "chooseTheMembershipType2": MessageLookupByLibrary.simpleMessage(
             "قم باختيار نوع العضوية المناسبة لك وانضم الي عائلة fixit"),
+        "codeTimer":
+            MessageLookupByLibrary.simpleMessage("سيتم اعادة ارسال الرمز بعد"),
+        "confirmPassword":
+            MessageLookupByLibrary.simpleMessage("تأكيد كلمة المرور"),
         "continueWithApple":
             MessageLookupByLibrary.simpleMessage("متابعة باستخدام Apple"),
         "continueWithFacebook":
@@ -36,10 +40,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("متابعة باستخدام Google"),
         "createAccount":
             MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
+        "createNewPassword":
+            MessageLookupByLibrary.simpleMessage("إنشاء كلمة مرور جديدة"),
         "customer": MessageLookupByLibrary.simpleMessage("عميل"),
         "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+        "enterOtpCode": MessageLookupByLibrary.simpleMessage(
+            "ادخل الرمز التعريفي المرسل الي البريد الالكتروني"),
+        "enterYourEmailAddress":
+            MessageLookupByLibrary.simpleMessage("أدخل بريدك الالكتروني"),
+        "enterYourNewPassword":
+            MessageLookupByLibrary.simpleMessage("ادخل كلمة المرور الجديدة"),
         "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور"),
+            MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
         "or": MessageLookupByLibrary.simpleMessage("او من خلال"),
@@ -47,8 +59,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseEnterValidEmail": MessageLookupByLibrary.simpleMessage(
             "يرجى إدخال البريد الإلكتروني الصحيح"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("تذكرني"),
+        "save": MessageLookupByLibrary.simpleMessage("حفظ"),
+        "send": MessageLookupByLibrary.simpleMessage("ارسال"),
+        "startNow": MessageLookupByLibrary.simpleMessage("البدء الان"),
         "technical": MessageLookupByLibrary.simpleMessage("صنايعي-فني"),
+        "thePasswordHasBeenChangedSuccessfully":
+            MessageLookupByLibrary.simpleMessage("تم تغيير كلمة المرور بنجاح"),
         "thisFieldIsRequired":
-            MessageLookupByLibrary.simpleMessage("هذه الخانة مطلوبة")
+            MessageLookupByLibrary.simpleMessage("هذه الخانة مطلوبة"),
+        "youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":
+            MessageLookupByLibrary.simpleMessage(
+                "يمكنك تصفح التطبيق الان مع اخر العروض والخصومات")
       };
 }

@@ -150,10 +150,10 @@ class S {
     );
   }
 
-  /// `Forgot Password`
+  /// `Forgot Password?`
   String get forgotPassword {
     return Intl.message(
-      'Forgot Password',
+      'Forgot Password?',
       name: 'forgotPassword',
       desc: '',
       args: [],
@@ -235,6 +235,116 @@ class S {
     return Intl.message(
       'Please enter a valid email',
       name: 'pleaseEnterValidEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your email address`
+  String get enterYourEmailAddress {
+    return Intl.message(
+      'Enter your email address',
+      name: 'enterYourEmailAddress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your New Password`
+  String get enterYourNewPassword {
+    return Intl.message(
+      'Enter your New Password',
+      name: 'enterYourNewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Send`
+  String get send {
+    return Intl.message(
+      'Send',
+      name: 'send',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create new password`
+  String get createNewPassword {
+    return Intl.message(
+      'Create new password',
+      name: 'createNewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter the identification code sent to the email`
+  String get enterOtpCode {
+    return Intl.message(
+      'Enter the identification code sent to the email',
+      name: 'enterOtpCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The code will be resent after`
+  String get codeTimer {
+    return Intl.message(
+      'The code will be resent after',
+      name: 'codeTimer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Password`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirm Password',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Save`
+  String get save {
+    return Intl.message(
+      'Save',
+      name: 'save',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The password has been changed successfully`
+  String get thePasswordHasBeenChangedSuccessfully {
+    return Intl.message(
+      'The password has been changed successfully',
+      name: 'thePasswordHasBeenChangedSuccessfully',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You can browse the application now with the latest offers and discounts`
+  String get youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts {
+    return Intl.message(
+      'You can browse the application now with the latest offers and discounts',
+      name: 'youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start Now`
+  String get startNow {
+    return Intl.message(
+      'Start Now',
+      name: 'startNow',
       desc: '',
       args: [],
     );

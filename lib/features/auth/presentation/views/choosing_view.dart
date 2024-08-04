@@ -1,6 +1,6 @@
 import 'package:fixit/core/utils/styles.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
-import 'package:fixit/features/auth/contoller/choosing_contoller.dart';
+import 'package:fixit/features/auth/controller/choosing_contoller.dart';
 import 'package:fixit/features/auth/presentation/widgets/logo.dart';
 import 'package:fixit/features/auth/presentation/widgets/user_kind.dart';
 import 'package:fixit/generated/l10n.dart';

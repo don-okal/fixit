@@ -1,6 +1,7 @@
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/utils/styles.dart';
-import 'package:fixit/features/auth/contoller/remember_me_controller.dart';
+import 'package:fixit/features/auth/controller/remember_me_controller.dart';
+import 'package:fixit/features/auth/presentation/views/forgot_password.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -53,11 +54,18 @@ class RememberMeCheckbox extends StatelessWidget {
           ),
         ),
         const Spacer(),
-        Text(
-          S.of(context).forgotPassword,
-          style: Styles.textStyle14.copyWith(
-            color: Colors.black.withOpacity(0.5),
-            fontWeight: FontWeight.w600,
+        TextButton(
+          onPressed: () {
+            Get.to(
+              const ForgotPassword(),
+            );
+          },
+          child: Text(
+            S.of(context).forgotPassword,
+            style: Styles.textStyle14.copyWith(
+              color: Colors.black.withOpacity(0.5),
+              fontWeight: FontWeight.w600,
+            ),
           ),
         ),
       ],
