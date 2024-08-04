@@ -1,0 +1,17 @@
+{
+    "@@locale": "ar",
+    "YourSolutionIsHere": "حلك هنا",
+    "@YourSolutionIsHere":{},
+    "chooseTheMembershipType": "قم باختيار نوع العضوية",
+    "@chooseTheMembershipType":{},
+    "customer":"عميل",
+    "@customer":{},
+    "technical":"صنايعي-فني",
+    "@technical":{},
+    "chooseTheMembershipType2":"قم باختيار نوع العضوية المناسبة لك وانضم الي عائلة fixit",
+    "@chooseTheMembershipType2":{},
+    "next":"التالي",
+    "@next":{},
+    "action":"متمسحناش🥺",
+    "@action":{}
+}

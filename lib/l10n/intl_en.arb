@@ -1,0 +1,17 @@
+{
+    "@@locale": "en",
+    "YourSolutionIsHere": "Your Solution Is Here",
+    "@YourSolutionIsHere":{},
+    "chooseTheMembershipType": "Choose the membership type",
+    "@chooseTheMembershipType":{},
+    "customer":"Customer",
+    "@customer":{},
+    "technical":"Technical",
+    "@technical":{},
+    "chooseTheMembershipType2":"Choose the membership type that suits you and join the fixit family.",
+    "@chooseTheMembershipType2":{},
+    "next":"Next",
+    "@next":{},
+    "action":"Dont delete us🥺",
+    "@action":{}
+}
