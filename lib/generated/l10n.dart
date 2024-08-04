@@ -119,6 +119,106 @@ class S {
       args: [],
     );
   }
+
+  /// `E-mail`
+  String get email {
+    return Intl.message(
+      'E-mail',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remember me`
+  String get rememberMe {
+    return Intl.message(
+      'Remember me',
+      name: 'rememberMe',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Password`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot Password',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message(
+      'Login',
+      name: 'login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `create a new account`
+  String get createAccount {
+    return Intl.message(
+      'create a new account',
+      name: 'createAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message(
+      'Or',
+      name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue with Google`
+  String get continueWithGoogle {
+    return Intl.message(
+      'Continue with Google',
+      name: 'continueWithGoogle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue with Facebook`
+  String get continueWithFacebook {
+    return Intl.message(
+      'Continue with Facebook',
+      name: 'continueWithFacebook',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue with Apple`
+  String get continueWithApple {
+    return Intl.message(
+      'Continue with Apple',
+      name: 'continueWithApple',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

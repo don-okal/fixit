@@ -29,8 +29,23 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Choose the membership type"),
         "chooseTheMembershipType2": MessageLookupByLibrary.simpleMessage(
             "Choose the membership type that suits you and join the fixit family."),
+        "continueWithApple":
+            MessageLookupByLibrary.simpleMessage("Continue with Apple"),
+        "continueWithFacebook":
+            MessageLookupByLibrary.simpleMessage("Continue with Facebook"),
+        "continueWithGoogle":
+            MessageLookupByLibrary.simpleMessage("Continue with Google"),
+        "createAccount":
+            MessageLookupByLibrary.simpleMessage("create a new account"),
         "customer": MessageLookupByLibrary.simpleMessage("Customer"),
+        "email": MessageLookupByLibrary.simpleMessage("E-mail"),
+        "forgotPassword":
+            MessageLookupByLibrary.simpleMessage("Forgot Password"),
+        "login": MessageLookupByLibrary.simpleMessage("Login"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "or": MessageLookupByLibrary.simpleMessage("Or"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
         "technical": MessageLookupByLibrary.simpleMessage("Technical")
       };
 }

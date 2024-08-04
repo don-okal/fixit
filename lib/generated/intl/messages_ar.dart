@@ -28,8 +28,23 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("قم باختيار نوع العضوية"),
         "chooseTheMembershipType2": MessageLookupByLibrary.simpleMessage(
             "قم باختيار نوع العضوية المناسبة لك وانضم الي عائلة fixit"),
+        "continueWithApple":
+            MessageLookupByLibrary.simpleMessage("متابعة باستخدام Apple"),
+        "continueWithFacebook":
+            MessageLookupByLibrary.simpleMessage("متابعة باستخدام Facebook"),
+        "continueWithGoogle":
+            MessageLookupByLibrary.simpleMessage("متابعة باستخدام Google"),
+        "createAccount":
+            MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
         "customer": MessageLookupByLibrary.simpleMessage("عميل"),
+        "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+        "forgotPassword":
+            MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور"),
+        "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
+        "or": MessageLookupByLibrary.simpleMessage("او من خلال"),
+        "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "rememberMe": MessageLookupByLibrary.simpleMessage("تذكرني"),
         "technical": MessageLookupByLibrary.simpleMessage("صنايعي-فني")
       };
 }
