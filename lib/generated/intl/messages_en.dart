@@ -45,7 +45,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "or": MessageLookupByLibrary.simpleMessage("Or"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "pleaseEnterValidEmail":
+            MessageLookupByLibrary.simpleMessage("Please enter a valid email"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
-        "technical": MessageLookupByLibrary.simpleMessage("Technical")
+        "technical": MessageLookupByLibrary.simpleMessage("Technical"),
+        "thisFieldIsRequired":
+            MessageLookupByLibrary.simpleMessage("this field is required")
       };
 }

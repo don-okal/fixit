@@ -1,3 +1,4 @@
+import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/features/splash/presentation/views/splash_view.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +24,14 @@ class FixIt extends StatelessWidget {
       builder: (context, child) {
         return GetMaterialApp(
           locale: const Locale('ar'),
-          theme: ThemeData(scaffoldBackgroundColor: Colors.white),
+          theme: ThemeData(
+            scaffoldBackgroundColor: Colors.white,
+            textSelectionTheme: TextSelectionThemeData(
+              cursorColor: kPrimaryColor,
+              selectionColor: kPrimaryColor.withOpacity(0.5),
+              selectionHandleColor: kPrimaryColor,
+            ),
+          ),
           localizationsDelegates: const [
             S.delegate,
             GlobalMaterialLocalizations.delegate,

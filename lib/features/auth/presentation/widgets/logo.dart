@@ -11,7 +11,7 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsetsDirectional.only(top: 60.h),
+      padding: EdgeInsetsDirectional.only(top: 75.h),
       child: Directionality(
         textDirection: TextDirection.ltr,
         child: Row(
@@ -19,7 +19,7 @@ class Logo extends StatelessWidget {
           children: [
             Image(
               image: const AssetImage(logo),
-              height: 76.h,
+              height: 65.h,
             ),
             SizedBox(
               width: 10.w,

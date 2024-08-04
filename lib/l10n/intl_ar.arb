@@ -33,5 +33,9 @@
     "continueWithFacebook": "متابعة باستخدام Facebook",
     "@continueWithFacebook": {},
     "continueWithApple": "متابعة باستخدام Apple",
-    "@continueWithApple": {}
+    "@continueWithApple": {},
+    "thisFieldIsRequired":"هذه الخانة مطلوبة",
+    "@thisFieldIsRequired":{},
+    "pleaseEnterValidEmail":"يرجى إدخال البريد الإلكتروني الصحيح",
+    "@pleaseEnterValidEmail":{}
 }

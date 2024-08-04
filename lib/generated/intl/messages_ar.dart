@@ -44,7 +44,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
         "or": MessageLookupByLibrary.simpleMessage("او من خلال"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "pleaseEnterValidEmail": MessageLookupByLibrary.simpleMessage(
+            "يرجى إدخال البريد الإلكتروني الصحيح"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("تذكرني"),
-        "technical": MessageLookupByLibrary.simpleMessage("صنايعي-فني")
+        "technical": MessageLookupByLibrary.simpleMessage("صنايعي-فني"),
+        "thisFieldIsRequired":
+            MessageLookupByLibrary.simpleMessage("هذه الخانة مطلوبة")
       };
 }

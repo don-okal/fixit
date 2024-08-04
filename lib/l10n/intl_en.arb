@@ -33,5 +33,9 @@
     "continueWithFacebook":"Continue with Facebook",
     "@continueWithFacebook":{},
     "continueWithApple":"Continue with Apple",
-    "@continueWithApple":{}
+    "@continueWithApple":{},
+    "thisFieldIsRequired":"this field is required",
+    "@thisFieldIsRequired":{},
+    "pleaseEnterValidEmail":"Please enter a valid email",
+    "@pleaseEnterValidEmail":{}
 }
