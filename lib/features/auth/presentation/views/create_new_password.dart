@@ -50,7 +50,10 @@ class CreateNewPassword extends StatelessWidget {
               title: S.of(context).save,
               onPressed: () {
                 Get.to(
-                  const NewPasswordDone(),
+                  NewPasswordDone(
+                    pageDone:
+                        S.of(context).thePasswordHasBeenChangedSuccessfully,
+                  ),
                 );
               },
             ),

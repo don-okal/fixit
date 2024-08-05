@@ -24,6 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "YourSolutionIsHere":
             MessageLookupByLibrary.simpleMessage("Your Solution Is Here"),
+        "accountSuccessfullyCreated": MessageLookupByLibrary.simpleMessage(
+            "Account successfully created"),
         "action": MessageLookupByLibrary.simpleMessage("Dont delete us🥺"),
         "chooseTheMembershipType":
             MessageLookupByLibrary.simpleMessage("Choose the membership type"),
@@ -47,12 +49,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("E-mail"),
         "enterOtpCode": MessageLookupByLibrary.simpleMessage(
             "Enter the identification code sent to the email"),
+        "enterTheRequiredDataBelow": MessageLookupByLibrary.simpleMessage(
+            "Enter the required data below"),
         "enterYourEmailAddress":
             MessageLookupByLibrary.simpleMessage("Enter your email address"),
+        "enterYourNameHere":
+            MessageLookupByLibrary.simpleMessage("Enter your name here"),
         "enterYourNewPassword":
             MessageLookupByLibrary.simpleMessage("Enter your New Password"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+        "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "or": MessageLookupByLibrary.simpleMessage("Or"),

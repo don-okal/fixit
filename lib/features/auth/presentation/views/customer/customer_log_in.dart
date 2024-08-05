@@ -1,7 +1,7 @@
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
 import 'package:fixit/core/widgets/custom_form_text_field.dart';
-import 'package:fixit/features/auth/presentation/views/create_customer_account.dart';
+import 'package:fixit/features/auth/presentation/views/customer/create_customer_account.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_divider.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_facebook_button.dart';
 import 'package:fixit/features/auth/presentation/widgets/logo.dart';
@@ -11,8 +11,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class Customer extends StatelessWidget {
-  const Customer({super.key});
+class CustomerLogIn extends StatelessWidget {
+  const CustomerLogIn({super.key});
 
   @override
   Widget build(BuildContext context) {

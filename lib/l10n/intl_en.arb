@@ -59,5 +59,13 @@
     "youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":"You can browse the application now with the latest offers and discounts",
     "@youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":{},
     "startNow":"Start Now",
-    "@startNow":{}
+    "@startNow":{},
+    "enterTheRequiredDataBelow":"Enter the required data below",
+    "@enterTheRequiredDataBelow":{},
+    "fullName":"Full Name",
+    "@fullName":{},
+    "enterYourNameHere":"Enter your name here",
+    "@enterYourNameHere":{},
+    "accountSuccessfullyCreated":"Account successfully created",
+    "@accountSuccessfullyCreated":{}
 }

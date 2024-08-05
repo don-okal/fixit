@@ -23,6 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "YourSolutionIsHere": MessageLookupByLibrary.simpleMessage("حلك هنا"),
+        "accountSuccessfullyCreated":
+            MessageLookupByLibrary.simpleMessage("تم انشاء الحساب بنجاح"),
         "action": MessageLookupByLibrary.simpleMessage("متمسحناش🥺"),
         "chooseTheMembershipType":
             MessageLookupByLibrary.simpleMessage("قم باختيار نوع العضوية"),
@@ -46,12 +48,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
         "enterOtpCode": MessageLookupByLibrary.simpleMessage(
             "ادخل الرمز التعريفي المرسل الي البريد الالكتروني"),
+        "enterTheRequiredDataBelow": MessageLookupByLibrary.simpleMessage(
+            "ادخل البيانات المطلوبه بالاسفل"),
         "enterYourEmailAddress":
             MessageLookupByLibrary.simpleMessage("أدخل بريدك الالكتروني"),
+        "enterYourNameHere":
+            MessageLookupByLibrary.simpleMessage("ادخل اسمك هنا"),
         "enterYourNewPassword":
             MessageLookupByLibrary.simpleMessage("ادخل كلمة المرور الجديدة"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
+        "fullName": MessageLookupByLibrary.simpleMessage("الاسم بالكامل"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
         "or": MessageLookupByLibrary.simpleMessage("او من خلال"),

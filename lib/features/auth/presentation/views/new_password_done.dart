@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class NewPasswordDone extends StatelessWidget {
-  const NewPasswordDone({super.key});
-
+  const NewPasswordDone({super.key, required this.pageDone});
+  final String pageDone;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,7 +29,7 @@ class NewPasswordDone extends StatelessWidget {
                 height: 20.h,
               ),
               Text(
-                S.of(context).thePasswordHasBeenChangedSuccessfully,
+                pageDone,
                 style: Styles.textStyle21,
                 textAlign: TextAlign.center,
               ),

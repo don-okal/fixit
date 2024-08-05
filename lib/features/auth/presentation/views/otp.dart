@@ -3,18 +3,17 @@ import 'dart:async';
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/utils/styles.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
-import 'package:fixit/features/auth/presentation/views/create_new_password.dart';
 import 'package:fixit/features/auth/presentation/widgets/back_icon.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 class Otp extends StatefulWidget {
-  const Otp({super.key});
-
+  const Otp({super.key, required this.pageName, required this.onPressed});
+  final String pageName;
+  final void Function() onPressed;
   @override
   OtpState createState() => OtpState();
 }
@@ -68,7 +67,7 @@ class OtpState extends State<Otp> {
             const BackIcon(),
             SizedBox(height: 40.h),
             Text(
-              S.of(context).createNewPassword,
+              widget.pageName,
               style: Styles.textStyle21,
             ),
             SizedBox(height: 20.h),
@@ -123,11 +122,7 @@ class OtpState extends State<Otp> {
             const Spacer(),
             CustomButton(
               title: S.of(context).send,
-              onPressed: () {
-                Get.to(
-                  const CreateNewPassword(),
-                );
-              },
+              onPressed: widget.onPressed,
             ),
             SizedBox(height: 40.h),
           ],

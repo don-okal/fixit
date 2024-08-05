@@ -349,6 +349,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Enter the required data below`
+  String get enterTheRequiredDataBelow {
+    return Intl.message(
+      'Enter the required data below',
+      name: 'enterTheRequiredDataBelow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Name`
+  String get fullName {
+    return Intl.message(
+      'Full Name',
+      name: 'fullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your name here`
+  String get enterYourNameHere {
+    return Intl.message(
+      'Enter your name here',
+      name: 'enterYourNameHere',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Account successfully created`
+  String get accountSuccessfullyCreated {
+    return Intl.message(
+      'Account successfully created',
+      name: 'accountSuccessfullyCreated',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

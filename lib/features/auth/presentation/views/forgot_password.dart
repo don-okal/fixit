@@ -1,6 +1,7 @@
 import 'package:fixit/core/utils/styles.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
 import 'package:fixit/core/widgets/custom_form_text_field.dart';
+import 'package:fixit/features/auth/presentation/views/create_new_password.dart';
 import 'package:fixit/features/auth/presentation/views/otp.dart';
 import 'package:fixit/features/auth/presentation/widgets/back_icon.dart';
 import 'package:fixit/generated/l10n.dart';
@@ -51,7 +52,14 @@ class ForgotPassword extends StatelessWidget {
               title: S.of(context).send,
               onPressed: () {
                 Get.to(
-                  const Otp(),
+                  Otp(
+                    pageName: S.of(context).createNewPassword,
+                    onPressed: () {
+                      Get.to(
+                        const CreateNewPassword(),
+                      );
+                    },
+                  ),
                 );
               },
             ),

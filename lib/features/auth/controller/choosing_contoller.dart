@@ -1,5 +1,5 @@
-import 'package:fixit/features/auth/presentation/views/customer_sign_up.dart';
-import 'package:fixit/features/auth/presentation/views/technical_sign_up.dart';
+import 'package:fixit/features/auth/presentation/views/customer/customer_log_in.dart';
+import 'package:fixit/features/auth/presentation/views/technical/technical_sign_up.dart';
 import 'package:get/get.dart';
 
 class ChoosingController extends GetxController {
@@ -11,7 +11,7 @@ class ChoosingController extends GetxController {
 
   void navigateToSelectedPage() {
     if (selectedCustomerKind.value == 'customer') {
-      Get.to(() => const Customer());
+      Get.to(() => const CustomerLogIn());
     } else if (selectedCustomerKind.value == 'technical') {
       Get.to(() => const Technical());
     }

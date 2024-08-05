@@ -59,5 +59,13 @@
     "youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":"يمكنك تصفح التطبيق الان مع اخر العروض والخصومات",
     "@youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":{},
     "startNow":"البدء الان",
-    "@startNow":{}
+    "@startNow":{},
+    "enterTheRequiredDataBelow":"ادخل البيانات المطلوبه بالاسفل",
+    "@enterTheRequiredDataBelow":{},
+    "fullName":"الاسم بالكامل",
+    "@fullName":{},
+    "enterYourNameHere":"ادخل اسمك هنا",
+    "@enterYourNameHere":{},
+    "accountSuccessfullyCreated":"تم انشاء الحساب بنجاح",
+    "@accountSuccessfullyCreated":{}
 }
