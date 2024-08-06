@@ -1,16 +1,15 @@
 import 'package:fixit/core/utils/styles.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
 import 'package:fixit/core/widgets/custom_form_text_field.dart';
-import 'package:fixit/features/auth/presentation/views/new_password_done.dart';
-import 'package:fixit/features/auth/presentation/views/otp.dart';
+import 'package:fixit/features/auth/presentation/views/technical/technical_data.dart';
 import 'package:fixit/features/auth/presentation/widgets/back_icon.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class CreateCustomerAccount extends StatelessWidget {
-  const CreateCustomerAccount({super.key});
+class CreateTechnicalAccount extends StatelessWidget {
+  const CreateTechnicalAccount({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +28,7 @@ class CreateCustomerAccount extends StatelessWidget {
                   const BackIcon(),
                   const Spacer(),
                   Text(
-                    S.of(context).customer,
+                    S.of(context).technical,
                     style: Styles.textStyle21,
                   ),
                   const Spacer(),
@@ -62,6 +61,15 @@ class CreateCustomerAccount extends StatelessWidget {
                 height: 10.h,
               ),
               CustomTextFormField(
+                hint: S.of(context).enterTheCraftProfession,
+                isLast: false,
+                title: S.of(context).enterYourJobHere,
+                obscure: false,
+              ),
+              SizedBox(
+                height: 10.h,
+              ),
+              CustomTextFormField(
                 hint: 'Mail@gmail.com',
                 isLast: false,
                 title: S.of(context).email,
@@ -86,24 +94,18 @@ class CreateCustomerAccount extends StatelessWidget {
                 obscure: true,
               ),
               SizedBox(
-                height: 165.h,
+                height: 50.h,
               ),
               CustomButton(
-                title: S.of(context).createAccount,
+                title: S.of(context).next,
                 onPressed: () {
                   Get.to(
-                    Otp(
-                      pageName: S.of(context).createAccount,
-                      onPressed: () {
-                        Get.to(
-                          NewPasswordDone(
-                            pageDone: S.of(context).accountSuccessfullyCreated,
-                          ),
-                        );
-                      },
-                    ),
+                    const TechnicalData(),
                   );
                 },
+              ),
+              SizedBox(
+                height: 40.h,
               ),
             ],
           ),

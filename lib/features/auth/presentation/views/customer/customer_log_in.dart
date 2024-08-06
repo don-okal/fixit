@@ -68,7 +68,9 @@ class CustomerLogIn extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 10.h),
-                child: const CustomDivider(),
+                child: const CustomDivider(
+                  color: kPrimaryColor,
+                ),
               ),
               CustomFaceBookButton(
                 title: S.of(context).continueWithGoogle,
@@ -90,6 +92,9 @@ class CustomerLogIn extends StatelessWidget {
                 title: S.of(context).continueWithApple,
                 onPressed: () {},
                 image: 'assets/icons/Apple.png',
+              ),
+              SizedBox(
+                height: 40.h,
               ),
             ],
           ),

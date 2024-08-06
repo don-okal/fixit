@@ -26,6 +26,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "accountSuccessfullyCreated":
             MessageLookupByLibrary.simpleMessage("تم انشاء الحساب بنجاح"),
         "action": MessageLookupByLibrary.simpleMessage("متمسحناش🥺"),
+        "addImage": MessageLookupByLibrary.simpleMessage("+اضف صورة"),
+        "backIdImage":
+            MessageLookupByLibrary.simpleMessage("صورة البطاقة الخلفية"),
         "chooseTheMembershipType":
             MessageLookupByLibrary.simpleMessage("قم باختيار نوع العضوية"),
         "chooseTheMembershipType2": MessageLookupByLibrary.simpleMessage(
@@ -44,30 +47,45 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
         "createNewPassword":
             MessageLookupByLibrary.simpleMessage("إنشاء كلمة مرور جديدة"),
+        "criminalRecordImage":
+            MessageLookupByLibrary.simpleMessage("الفيش الجنائي"),
         "customer": MessageLookupByLibrary.simpleMessage("عميل"),
         "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+        "enterNationalId":
+            MessageLookupByLibrary.simpleMessage("ادخل الرقم القومي"),
         "enterOtpCode": MessageLookupByLibrary.simpleMessage(
             "ادخل الرمز التعريفي المرسل الي البريد الالكتروني"),
+        "enterTheCraftProfession":
+            MessageLookupByLibrary.simpleMessage("ادخل الحرفة (مهنة)"),
         "enterTheRequiredDataBelow": MessageLookupByLibrary.simpleMessage(
             "ادخل البيانات المطلوبه بالاسفل"),
         "enterYourEmailAddress":
             MessageLookupByLibrary.simpleMessage("أدخل بريدك الالكتروني"),
+        "enterYourJobHere":
+            MessageLookupByLibrary.simpleMessage("ادخل وظيفتك هنا"),
         "enterYourNameHere":
             MessageLookupByLibrary.simpleMessage("ادخل اسمك هنا"),
         "enterYourNewPassword":
             MessageLookupByLibrary.simpleMessage("ادخل كلمة المرور الجديدة"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
+        "frontIdImage":
+            MessageLookupByLibrary.simpleMessage("صورة البطاقة الاماميه"),
         "fullName": MessageLookupByLibrary.simpleMessage("الاسم بالكامل"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+        "nationalId": MessageLookupByLibrary.simpleMessage("الرقم القومي"),
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
         "or": MessageLookupByLibrary.simpleMessage("او من خلال"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "personalPhotoImage":
+            MessageLookupByLibrary.simpleMessage("الصورة الشخصية"),
         "pleaseEnterValidEmail": MessageLookupByLibrary.simpleMessage(
             "يرجى إدخال البريد الإلكتروني الصحيح"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("تذكرني"),
         "save": MessageLookupByLibrary.simpleMessage("حفظ"),
         "send": MessageLookupByLibrary.simpleMessage("ارسال"),
+        "skillCertificateImage":
+            MessageLookupByLibrary.simpleMessage("شهادة قياس المهارات"),
         "startNow": MessageLookupByLibrary.simpleMessage("البدء الان"),
         "technical": MessageLookupByLibrary.simpleMessage("صنايعي-فني"),
         "thePasswordHasBeenChangedSuccessfully":

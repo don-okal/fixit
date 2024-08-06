@@ -389,6 +389,106 @@ class S {
       args: [],
     );
   }
+
+  /// `Enter the craft (profession)`
+  String get enterTheCraftProfession {
+    return Intl.message(
+      'Enter the craft (profession)',
+      name: 'enterTheCraftProfession',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your job here`
+  String get enterYourJobHere {
+    return Intl.message(
+      'Enter your job here',
+      name: 'enterYourJobHere',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Front ID image`
+  String get frontIdImage {
+    return Intl.message(
+      'Front ID image',
+      name: 'frontIdImage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `back ID image`
+  String get backIdImage {
+    return Intl.message(
+      'back ID image',
+      name: 'backIdImage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Skill certificate image`
+  String get skillCertificateImage {
+    return Intl.message(
+      'Skill certificate image',
+      name: 'skillCertificateImage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `personal photo image`
+  String get personalPhotoImage {
+    return Intl.message(
+      'personal photo image',
+      name: 'personalPhotoImage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `criminal record image`
+  String get criminalRecordImage {
+    return Intl.message(
+      'criminal record image',
+      name: 'criminalRecordImage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `national id`
+  String get nationalId {
+    return Intl.message(
+      'national id',
+      name: 'nationalId',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `enter national id`
+  String get enterNationalId {
+    return Intl.message(
+      'enter national id',
+      name: 'enterNationalId',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// ` + add image`
+  String get addImage {
+    return Intl.message(
+      ' + add image',
+      name: 'addImage',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
