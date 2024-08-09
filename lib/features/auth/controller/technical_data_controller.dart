@@ -5,7 +5,7 @@ import 'package:image_picker/image_picker.dart';
 class TechnicalDataController extends GetxController {
   final frontIdImage = Rx<XFile?>(null);
   final backIdImage = Rx<XFile?>(null);
-  final skillCertificateImage = Rx<XFile?>(null); // Optional field
+  final skillCertificateImage = Rx<XFile?>(null);
   final personalPhotoImage = Rx<XFile?>(null);
   final criminalRecordImage = Rx<XFile?>(null);
   final nationalIdController = TextEditingController();

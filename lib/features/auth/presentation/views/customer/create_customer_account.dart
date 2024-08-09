@@ -4,6 +4,7 @@ import 'package:fixit/core/widgets/custom_form_text_field.dart';
 import 'package:fixit/features/auth/presentation/views/new_password_done.dart';
 import 'package:fixit/features/auth/presentation/views/otp.dart';
 import 'package:fixit/features/auth/presentation/widgets/back_icon.dart';
+import 'package:fixit/features/home/presentation/views/home_view.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -98,6 +99,11 @@ class CreateCustomerAccount extends StatelessWidget {
                         Get.to(
                           NewPasswordDone(
                             pageDone: S.of(context).accountSuccessfullyCreated,
+                            onTap: () {
+                              Get.to(
+                                const HomeView(),
+                              );
+                            },
                           ),
                         );
                       },

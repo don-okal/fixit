@@ -72,6 +72,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "frontIdImage":
             MessageLookupByLibrary.simpleMessage("صورة البطاقة الاماميه"),
         "fullName": MessageLookupByLibrary.simpleMessage("الاسم بالكامل"),
+        "hello": MessageLookupByLibrary.simpleMessage("مرحبا"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "nationalId": MessageLookupByLibrary.simpleMessage("الرقم القومي"),
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
@@ -83,6 +84,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "يرجى إدخال البريد الإلكتروني الصحيح"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("تذكرني"),
         "save": MessageLookupByLibrary.simpleMessage("حفظ"),
+        "search": MessageLookupByLibrary.simpleMessage("بحث"),
         "send": MessageLookupByLibrary.simpleMessage("ارسال"),
         "skillCertificateImage":
             MessageLookupByLibrary.simpleMessage("شهادة قياس المهارات"),

@@ -5,8 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class NewPasswordDone extends StatelessWidget {
-  const NewPasswordDone({super.key, required this.pageDone});
+  const NewPasswordDone({super.key, required this.pageDone, this.onTap});
   final String pageDone;
+  final void Function()? onTap;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +47,7 @@ class NewPasswordDone extends StatelessWidget {
               const Spacer(),
               CustomButton(
                 title: S.of(context).startNow,
-                onPressed: () {},
+                onPressed: onTap,
               ),
               SizedBox(height: 40.h),
             ],

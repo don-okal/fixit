@@ -33,19 +33,20 @@ class ChoosingView extends StatelessWidget {
             ),
             Row(
               children: [
-                Obx(() => UserKind(
-                      onTap: () => controller.selectCustomerKind('customer'),
-                      color: controller.selectedCustomerKind.value == 'customer'
-                          ? Colors.blue
-                          : const Color(0xff939DA4),
-                      name: S.of(context).customer,
-                      image: 'assets/images/customer.png',
-                      opacity: controller.selectedCustomerKind.value.isEmpty ||
-                              controller.selectedCustomerKind.value ==
-                                  'customer'
-                          ? 1.0
-                          : 0.5,
-                    )),
+                Obx(
+                  () => UserKind(
+                    onTap: () => controller.selectCustomerKind('customer'),
+                    color: controller.selectedCustomerKind.value == 'customer'
+                        ? Colors.blue
+                        : const Color(0xff939DA4),
+                    name: S.of(context).customer,
+                    image: 'assets/images/customer.png',
+                    opacity: controller.selectedCustomerKind.value.isEmpty ||
+                            controller.selectedCustomerKind.value == 'customer'
+                        ? 1.0
+                        : 0.5,
+                  ),
+                ),
                 const Spacer(),
                 Obx(
                   () => UserKind(

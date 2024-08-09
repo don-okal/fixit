@@ -53,6 +53,7 @@ class CreateNewPassword extends StatelessWidget {
                   NewPasswordDone(
                     pageDone:
                         S.of(context).thePasswordHasBeenChangedSuccessfully,
+                    onTap: () {},
                   ),
                 );
               },

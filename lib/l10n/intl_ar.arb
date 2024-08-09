@@ -87,5 +87,9 @@
     "enterNationalId":"ادخل الرقم القومي",
     "@enterNationalId":{},
     "addImage":"+اضف صورة",
-    "@addImage":{}
+    "@addImage":{},
+    "hello":"مرحبا",
+    "@hello":{},
+    "search":"بحث",
+    "@search":{}
 }

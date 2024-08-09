@@ -193,6 +193,7 @@ class TechnicalData extends StatelessWidget {
                                     pageDone: S
                                         .of(context)
                                         .accountSuccessfullyCreated,
+                                    onTap: () {},
                                   ),
                                 );
                               },

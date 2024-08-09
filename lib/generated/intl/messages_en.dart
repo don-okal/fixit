@@ -71,6 +71,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Forgot Password?"),
         "frontIdImage": MessageLookupByLibrary.simpleMessage("Front ID image"),
         "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
+        "hello": MessageLookupByLibrary.simpleMessage("Hello"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "nationalId": MessageLookupByLibrary.simpleMessage("national id"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
@@ -82,6 +83,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Please enter a valid email"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
         "save": MessageLookupByLibrary.simpleMessage("Save"),
+        "search": MessageLookupByLibrary.simpleMessage("Search"),
         "send": MessageLookupByLibrary.simpleMessage("Send"),
         "skillCertificateImage":
             MessageLookupByLibrary.simpleMessage("Skill certificate image"),

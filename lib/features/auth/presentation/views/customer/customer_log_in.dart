@@ -6,6 +6,7 @@ import 'package:fixit/features/auth/presentation/widgets/custom_divider.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_facebook_button.dart';
 import 'package:fixit/features/auth/presentation/widgets/logo.dart';
 import 'package:fixit/features/auth/presentation/widgets/remember_me.dart';
+import 'package:fixit/features/home/presentation/views/home_view.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -51,7 +52,11 @@ class CustomerLogIn extends StatelessWidget {
               ),
               CustomButton(
                 title: S.of(context).login,
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(
+                    const HomeView(),
+                  );
+                },
               ),
               SizedBox(
                 height: 15.h,
