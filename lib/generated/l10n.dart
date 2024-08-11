@@ -509,6 +509,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Today''s offer`
+  String get todaysOffer {
+    return Intl.message(
+      'Today\'\'s offer',
+      name: 'todaysOffer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join the fixit family`
+  String get joinTheFixitFamilyNow {
+    return Intl.message(
+      'Join the fixit family',
+      name: 'joinTheFixitFamilyNow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `With a special VIP membership and enjoy the best offers and discounts`
+  String get specialVIP {
+    return Intl.message(
+      'With a special VIP membership and enjoy the best offers and discounts',
+      name: 'specialVIP',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Book Now`
+  String get bookNow {
+    return Intl.message(
+      'Book Now',
+      name: 'bookNow',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

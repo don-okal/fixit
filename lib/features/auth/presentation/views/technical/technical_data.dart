@@ -201,6 +201,7 @@ class TechnicalData extends StatelessWidget {
                           );
                         }
                       : null,
+                  height: 55.h,
                 ),
               ),
             ],

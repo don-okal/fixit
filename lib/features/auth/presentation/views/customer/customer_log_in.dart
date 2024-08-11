@@ -57,6 +57,7 @@ class CustomerLogIn extends StatelessWidget {
                     const HomeView(),
                   );
                 },
+                height: 55.h,
               ),
               SizedBox(
                 height: 15.h,
@@ -70,6 +71,7 @@ class CustomerLogIn extends StatelessWidget {
                     const CreateCustomerAccount(),
                   );
                 },
+                height: 55.h,
               ),
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 10.h),

@@ -103,6 +103,7 @@ class CreateTechnicalAccount extends StatelessWidget {
                     const TechnicalData(),
                   );
                 },
+                height: 55.h,
               ),
               SizedBox(
                 height: 40.h,

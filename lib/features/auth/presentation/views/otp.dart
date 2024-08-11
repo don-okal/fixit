@@ -126,6 +126,7 @@ class OtpState extends State<Otp> {
             CustomButton(
               title: S.of(context).send,
               onPressed: widget.onPressed,
+              height: 55.h,
             ),
             SizedBox(height: 40.h),
           ],

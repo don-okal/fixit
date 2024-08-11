@@ -29,6 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "addImage": MessageLookupByLibrary.simpleMessage("+اضف صورة"),
         "backIdImage":
             MessageLookupByLibrary.simpleMessage("صورة البطاقة الخلفية"),
+        "bookNow": MessageLookupByLibrary.simpleMessage("احجز الآن"),
         "chooseTheMembershipType":
             MessageLookupByLibrary.simpleMessage("قم باختيار نوع العضوية"),
         "chooseTheMembershipType2": MessageLookupByLibrary.simpleMessage(
@@ -73,6 +74,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("صورة البطاقة الاماميه"),
         "fullName": MessageLookupByLibrary.simpleMessage("الاسم بالكامل"),
         "hello": MessageLookupByLibrary.simpleMessage("مرحبا"),
+        "joinTheFixitFamilyNow":
+            MessageLookupByLibrary.simpleMessage("انضم الان لعائلة fixit"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "nationalId": MessageLookupByLibrary.simpleMessage("الرقم القومي"),
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
@@ -88,12 +91,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "send": MessageLookupByLibrary.simpleMessage("ارسال"),
         "skillCertificateImage":
             MessageLookupByLibrary.simpleMessage("شهادة قياس المهارات"),
+        "specialVIP": MessageLookupByLibrary.simpleMessage(
+            "بعضويه vip مميزة واستمتع بافضل العروض والخصومات"),
         "startNow": MessageLookupByLibrary.simpleMessage("البدء الان"),
         "technical": MessageLookupByLibrary.simpleMessage("صنايعي-فني"),
         "thePasswordHasBeenChangedSuccessfully":
             MessageLookupByLibrary.simpleMessage("تم تغيير كلمة المرور بنجاح"),
         "thisFieldIsRequired":
             MessageLookupByLibrary.simpleMessage("هذه الخانة مطلوبة"),
+        "todaysOffer": MessageLookupByLibrary.simpleMessage("عروض اليوم"),
         "youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":
             MessageLookupByLibrary.simpleMessage(
                 "يمكنك تصفح التطبيق الان مع اخر العروض والخصومات")

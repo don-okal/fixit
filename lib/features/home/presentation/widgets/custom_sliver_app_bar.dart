@@ -3,6 +3,7 @@ import 'package:fixit/core/utils/styles.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
 
 class CustomSliverAppBar extends StatelessWidget {
   const CustomSliverAppBar({
@@ -13,13 +14,11 @@ class CustomSliverAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsetsDirectional.only(
-        top: 35.h,
-        start: 16.w,
-        end: 16.w,
+        top: 60.h,
       ),
       child: Container(
         padding: EdgeInsets.zero,
-        height: 60.h,
+        height: 50.h,
         width: double.infinity,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(
@@ -72,9 +71,14 @@ class CustomSliverAppBar extends StatelessWidget {
                 width: 180.w,
                 child: TextField(
                   decoration: InputDecoration(
-                    suffixIcon: const Icon(
-                      Icons.search_rounded,
-                      color: Color(0xffB0B0B0),
+                    suffixIcon: Padding(
+                      padding: EdgeInsetsDirectional.only(end: 8.w),
+                      child: SvgPicture.asset(
+                        'assets/icons/search.svg',
+                      ),
+                    ),
+                    suffixIconConstraints: BoxConstraints.tightFor(
+                      height: 25.h,
                     ),
                     filled: true,
                     fillColor: const Color(0xffECECEC),
@@ -114,7 +118,7 @@ class CustomSliverAppBar extends StatelessWidget {
                 padding: EdgeInsets.zero,
                 onPressed: () {},
                 icon: Icon(
-                  Icons.notifications_rounded,
+                  Icons.notifications_none_outlined,
                   color: kPrimaryColor,
                   size: 24.sp,
                 ),

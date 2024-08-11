@@ -48,6 +48,7 @@ class NewPasswordDone extends StatelessWidget {
               CustomButton(
                 title: S.of(context).startNow,
                 onPressed: onTap,
+                height: 55.h,
               ),
               SizedBox(height: 40.h),
             ],

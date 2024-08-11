@@ -81,6 +81,7 @@ class ChoosingView extends StatelessWidget {
                       onPressed: () {
                         controller.navigateToSelectedPage();
                       },
+                      height: 55.h,
                     )
                   : const SizedBox.shrink(),
             ),

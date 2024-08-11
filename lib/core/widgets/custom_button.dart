@@ -1,7 +1,6 @@
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/utils/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({
@@ -11,6 +10,7 @@ class CustomButton extends StatelessWidget {
     this.color = kPrimaryColor,
     this.textColor = const Color(0xffF6F6F9),
     this.borderColor = kPrimaryColor,
+    required this.height,
   });
 
   final void Function()? onPressed;
@@ -18,11 +18,11 @@ class CustomButton extends StatelessWidget {
   final Color? textColor;
   final Color? color;
   final Color? borderColor;
-
+  final double height;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 55.h,
+      height: height,
       width: double.infinity,
       child: ElevatedButton(
         style: ButtonStyle(

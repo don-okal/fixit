@@ -110,6 +110,7 @@ class CreateCustomerAccount extends StatelessWidget {
                     ),
                   );
                 },
+                height: 55.h,
               ),
             ],
           ),

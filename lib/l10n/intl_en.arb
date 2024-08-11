@@ -91,5 +91,13 @@
     "hello":"Hello",
     "@hello":{},
     "search":"Search",
-    "@search":{}
+    "@search":{},
+    "todaysOffer": "Today''s offer",
+    "@todaysOffer":{},
+    "joinTheFixitFamilyNow":"Join the fixit family",
+    "@joinTheFixitFamilyNow":{},
+    "specialVIP":"With a special VIP membership and enjoy the best offers and discounts",
+    "@specialVIP":{},
+    "bookNow":"Book Now",
+    "@bookNow":{}
 }

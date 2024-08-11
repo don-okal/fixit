@@ -91,5 +91,13 @@
     "hello":"مرحبا",
     "@hello":{},
     "search":"بحث",
-    "@search":{}
+    "@search":{},
+    "todaysOffer":"عروض اليوم",
+    "@todaysOffer":{},
+    "joinTheFixitFamilyNow":"انضم الان لعائلة fixit",
+    "@joinTheFixitFamilyNow":{},
+    "specialVIP":"بعضويه vip مميزة واستمتع بافضل العروض والخصومات",
+    "@specialVIP":{},
+    "bookNow":"احجز الآن",
+    "@bookNow":{}
 }

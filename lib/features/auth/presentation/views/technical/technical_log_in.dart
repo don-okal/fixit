@@ -70,6 +70,7 @@ class Technical extends StatelessWidget {
                     CustomButton(
                       title: S.of(context).login,
                       onPressed: () {},
+                      height: 55.h,
                     ),
                     SizedBox(
                       height: 15.h,
@@ -83,6 +84,7 @@ class Technical extends StatelessWidget {
                           const CreateTechnicalAccount(),
                         );
                       },
+                      height: 55.h,
                     ),
                     Padding(
                       padding: EdgeInsets.symmetric(vertical: 10.h),

@@ -29,6 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "action": MessageLookupByLibrary.simpleMessage("Dont delete us🥺"),
         "addImage": MessageLookupByLibrary.simpleMessage(" + add image"),
         "backIdImage": MessageLookupByLibrary.simpleMessage("back ID image"),
+        "bookNow": MessageLookupByLibrary.simpleMessage("Book Now"),
         "chooseTheMembershipType":
             MessageLookupByLibrary.simpleMessage("Choose the membership type"),
         "chooseTheMembershipType2": MessageLookupByLibrary.simpleMessage(
@@ -72,6 +73,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "frontIdImage": MessageLookupByLibrary.simpleMessage("Front ID image"),
         "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "hello": MessageLookupByLibrary.simpleMessage("Hello"),
+        "joinTheFixitFamilyNow":
+            MessageLookupByLibrary.simpleMessage("Join the fixit family"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "nationalId": MessageLookupByLibrary.simpleMessage("national id"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
@@ -87,6 +90,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "send": MessageLookupByLibrary.simpleMessage("Send"),
         "skillCertificateImage":
             MessageLookupByLibrary.simpleMessage("Skill certificate image"),
+        "specialVIP": MessageLookupByLibrary.simpleMessage(
+            "With a special VIP membership and enjoy the best offers and discounts"),
         "startNow": MessageLookupByLibrary.simpleMessage("Start Now"),
         "technical": MessageLookupByLibrary.simpleMessage("Technical"),
         "thePasswordHasBeenChangedSuccessfully":
@@ -94,6 +99,7 @@ class MessageLookup extends MessageLookupByLibrary {
                 "The password has been changed successfully"),
         "thisFieldIsRequired":
             MessageLookupByLibrary.simpleMessage("this field is required"),
+        "todaysOffer": MessageLookupByLibrary.simpleMessage("Today\'\'s offer"),
         "youCanBrowseTheApplicationNowWithTheLatestOffersAndDiscounts":
             MessageLookupByLibrary.simpleMessage(
                 "You can browse the application now with the latest offers and discounts")
