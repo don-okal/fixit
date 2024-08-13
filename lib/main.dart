@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/features/splash/presentation/views/splash_view.dart';
 import 'package:fixit/generated/l10n.dart';
@@ -9,7 +10,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:quick_actions/quick_actions.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations(
     [
@@ -17,6 +18,8 @@ void main() {
       DeviceOrientation.portraitDown,
     ],
   );
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   runApp(const FixIt());
@@ -83,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     quickActions.setShortcutItems(<ShortcutItem>[
       ShortcutItem(
-        type: 'action_dont_delete',
+        type: 'action_don\'t_delete',
         localizedTitle: S.of(context).action,
       ),
     ]).then((void _) {

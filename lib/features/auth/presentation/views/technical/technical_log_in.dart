@@ -114,7 +114,7 @@ class Technical extends StatelessWidget {
                           onTap: () {},
                         ),
                       ],
-                    )
+                    ),
                   ],
                 ),
               ),

@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as src;
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/utils/styles.dart';
 import 'package:fixit/features/home/presentation/widgets/custom_sliver_app_bar.dart';
@@ -17,13 +17,16 @@ class HomeView extends StatefulWidget {
 
 class _HomeViewState extends State<HomeView> {
   int _currentIndex = 0;
-  final CarouselController _carouselController = CarouselController();
+  final src.CarouselSliderController _carouselController =
+      src.CarouselSliderController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 16.w),
+        padding: EdgeInsets.symmetric(
+          horizontal: 16.w,
+        ),
         child: CustomScrollView(
           slivers: [
             const SliverAppBar(
@@ -43,7 +46,9 @@ class _HomeViewState extends State<HomeView> {
             SliverToBoxAdapter(
               child: Text(
                 S.of(context).todaysOffer,
-                style: Styles.textStyle16.copyWith(fontWeight: FontWeight.bold),
+                style: Styles.textStyle16.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
             SliverToBoxAdapter(
@@ -52,13 +57,13 @@ class _HomeViewState extends State<HomeView> {
               ),
             ),
             SliverToBoxAdapter(
-              child: CarouselSlider.builder(
+              child: src.CarouselSlider.builder(
                 carouselController: _carouselController,
                 itemCount: 3,
                 itemBuilder: (context, index, realIndex) {
                   return const OfferItem();
                 },
-                options: CarouselOptions(
+                options: src.CarouselOptions(
                   autoPlayInterval: const Duration(seconds: 2),
                   enlargeCenterPage: true,
                   autoPlay: true,
@@ -77,7 +82,9 @@ class _HomeViewState extends State<HomeView> {
             SliverToBoxAdapter(
               child: Center(
                 child: Padding(
-                  padding: EdgeInsets.only(top: 16.h),
+                  padding: EdgeInsets.only(
+                    top: 16.h,
+                  ),
                   child: AnimatedSmoothIndicator(
                     activeIndex: _currentIndex,
                     count: 3,

@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
 class SplashView extends StatefulWidget {
@@ -20,12 +21,11 @@ class _SplashViewState extends State<SplashView> {
   void initState() {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     FlutterNativeSplash.remove();
-    Future.delayed(const Duration(seconds: 3))
-        .then((value) => Navigator.pushReplacement(context, MaterialPageRoute(
-              builder: (context) {
-                return ChoosingView();
-              },
-            )));
+    Future.delayed(const Duration(seconds: 3)).then(
+      (value) => Get.to(
+        ChoosingView(),
+      ),
+    );
     super.initState();
   }
 
