@@ -1,6 +1,9 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
 import 'package:fixit/core/widgets/custom_form_text_field.dart';
+import 'package:fixit/features/auth/controller/facebook_method_log_in.dart';
+import 'package:fixit/features/auth/controller/google_method_log_in.dart';
 import 'package:fixit/features/auth/presentation/views/technical/create_technical_account.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_divider.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_login_container.dart';
@@ -16,6 +19,8 @@ class Technical extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final AuthService authService = AuthService();
+
     return Scaffold(
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 16.w),
@@ -97,7 +102,9 @@ class Technical extends StatelessWidget {
                       children: [
                         CustomLoginContainer(
                           image: 'assets/icons/Facebook.png',
-                          onTap: () {},
+                          onTap: () {
+                            signInWithFacebook(context);
+                          },
                         ),
                         SizedBox(
                           width: 10.w,
@@ -111,7 +118,14 @@ class Technical extends StatelessWidget {
                         ),
                         CustomLoginContainer(
                           image: 'assets/icons/Google.png',
-                          onTap: () {},
+                          onTap: () async {
+                            User? user = await authService.signInWithGoogle();
+                            if (user != null) {
+                              print('Signed in: ${user.displayName}');
+                            } else {
+                              print('Sign in failed');
+                            }
+                          },
                         ),
                       ],
                     ),

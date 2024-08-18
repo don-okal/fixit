@@ -1,12 +1,15 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fixit/core/utils/constant.dart';
 import 'package:fixit/core/widgets/custom_button.dart';
 import 'package:fixit/core/widgets/custom_form_text_field.dart';
+import 'package:fixit/features/auth/controller/facebook_method_log_in.dart';
+import 'package:fixit/features/auth/controller/google_method_log_in.dart';
 import 'package:fixit/features/auth/presentation/views/customer/create_customer_account.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_divider.dart';
 import 'package:fixit/features/auth/presentation/widgets/custom_facebook_button.dart';
 import 'package:fixit/features/auth/presentation/widgets/logo.dart';
 import 'package:fixit/features/auth/presentation/widgets/remember_me.dart';
-import 'package:fixit/features/home/presentation/views/home_view.dart';
+import 'package:fixit/features/home/presentation/widgets/curved_navigation_bar.dart';
 import 'package:fixit/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -17,6 +20,8 @@ class CustomerLogIn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final AuthService authService = AuthService();
+
     return Scaffold(
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 16.w),
@@ -54,7 +59,7 @@ class CustomerLogIn extends StatelessWidget {
                 title: S.of(context).login,
                 onPressed: () {
                   Get.to(
-                    const HomeView(),
+                    const CustomNavigationBar(),
                   );
                 },
                 height: 55.h,
@@ -81,7 +86,14 @@ class CustomerLogIn extends StatelessWidget {
               ),
               CustomFaceBookButton(
                 title: S.of(context).continueWithGoogle,
-                onPressed: () {},
+                onPressed: () async {
+                  User? user = await authService.signInWithGoogle();
+                  if (user != null) {
+                    print('Signed in: ${user.displayName}');
+                  } else {
+                    print('Sign in failed');
+                  }
+                },
                 image: 'assets/icons/Google.png',
               ),
               SizedBox(
@@ -89,7 +101,9 @@ class CustomerLogIn extends StatelessWidget {
               ),
               CustomFaceBookButton(
                 title: S.of(context).continueWithFacebook,
-                onPressed: () {},
+                onPressed: () {
+                  signInWithFacebook(context);
+                },
                 image: 'assets/icons/Facebook.png',
               ),
               SizedBox(
